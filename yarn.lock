@@ -667,7 +667,7 @@ cors@^2.8.3:
     object-assign "^4"
     vary "^1"
 
-cron@1.8.2:
+cron@1.8.2, cron@^1.8.2:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/cron/-/cron-1.8.2.tgz#4ac5e3c55ba8c163d84f3407bde94632da8370ce"
   dependencies:
