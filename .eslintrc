@@ -6,7 +6,9 @@
     "no-use-before-define": ["error", { "variables": false }],
     "no-multi-str": 0,
     "linebreak-style": ["error", "windows"],
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "no-continue": "off",
+    "implicit-arrow-linebreak": "off"
   },
   "env": {
     "node": true,

@@ -7,6 +7,9 @@ const env = cleanEnv(process.env, {
   NODE_ENV: str({ choices: ['development', 'test', 'production', 'staging'] }),
   PORT: port(),
   MONGO_URI: url(),
+  TOKEN: str(),
+  CLASS_ID: str(),
+  ASSIGNMENT_ID: str(),
 });
 
 module.exports = env;
