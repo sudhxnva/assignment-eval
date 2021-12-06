@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const logger = require('./logger');
-const { mongo, env } = require('./vars');
+const { MONGO_URI, isDev } = require('./vars');
 
 // set mongoose Promise to Bluebird
 mongoose.Promise = Promise;
@@ -12,7 +12,7 @@ mongoose.connection.on('error', (err) => {
 });
 
 // print mongoose logs in dev env
-if (env === 'development') {
+if (isDev) {
   mongoose.set('debug', true);
 }
 
@@ -24,7 +24,7 @@ if (env === 'development') {
  */
 exports.connect = () => {
   mongoose
-    .connect(mongo.uri, {
+    .connect(MONGO_URI, {
       useCreateIndex: true,
       keepAlive: 1,
       useNewUrlParser: true,
