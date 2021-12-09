@@ -40,7 +40,7 @@ const job = new CronJob('0 */1 * * * *', async () => {
 
       const saved = await teams.downloadFile(
         subResource['@microsoft.graph.downloadUrl'],
-        path.join(__dirname, `../../submissions/${student.id}.sql`)
+        path.join(__dirname, `../python-sql-evaluator/test/${student.id}.txt`)
       );
 
       if (!saved) return log.error('Unable to process file');
