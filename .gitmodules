@@ -1,0 +1,3 @@
+[submodule "src/python-sql-evaluator"]
+	path = src/python-sql-evaluator
+	url = https://github.com/sudhxnva/python-sql-evaluator
