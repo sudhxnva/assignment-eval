@@ -28,7 +28,7 @@
     "cors": "^2.8.3",
     "cron": "^1.8.2",
     "cross-env": "^7.0.3",
-    "dotenv": "^10.0.0",
+    "dotenv": "^14.1.0",
     "envalid": "^7.2.2",
     "express": "^4.15.2",
     "express-validation": "^1.0.2",
