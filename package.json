@@ -31,7 +31,7 @@
     "dotenv": "^10.0.0",
     "envalid": "^7.2.2",
     "express": "^4.15.2",
-    "express-validation": "^1.0.2",
+    "express-validation": "^4.1.0",
     "helmet": "^4.6.0",
     "http-status": "^1.0.1",
     "joi": "^17.5.0",
